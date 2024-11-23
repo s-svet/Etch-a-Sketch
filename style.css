@@ -18,3 +18,8 @@ body {
     border: solid lightblue;
     background-color: aquamarine;
 }
+
+button {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
