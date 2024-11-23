@@ -6,7 +6,7 @@ function generateGrid() {
     
     let size = Number(prompt("Please enter size of grid [2, 100]"));
 
-    if ((size < 2 || size > 100 || Math.sign(size) == -1)) {
+    while ((size < 2 || size > 100 || Math.sign(size) == -1)) {
         size = prompt("Invalid input. Please enter a positive integer between 2 and 100");
     } 
 
